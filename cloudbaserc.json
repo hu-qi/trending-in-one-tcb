@@ -1,0 +1,16 @@
+{
+  "version": "2.0",
+  "envId": "deno-bot-5gvcin9606db0bc5",
+  "$schema": "https://framework-1258016615.tcloudbaseapp.com/schema/latest.json",
+  "framework": {
+    "name": "deno-app",
+    "plugins": {
+      "deno": {
+        "use": "@cloudbase/framework-plugin-deno",
+        "inputs": {
+          "dockerImage": "debian:latest"
+        }
+      }
+    }
+  }
+}

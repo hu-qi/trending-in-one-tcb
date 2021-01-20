@@ -1,0 +1,22 @@
+<%- await include(`${Deno.cwd()}/views/common/header.ejs`, {
+  pathname,
+  title,
+  text
+}) %>
+
+<div class="container">
+        <h1><a href="/"><%= title %></a></h1>
+        <article>
+            <div><a href="<%= text.url %>" target="_blank"><%= text.word %></a><button class="button-3d-2" onclick="window.location.reload()">刷新</button></div>
+        </article>n
+        <footer>
+          <p>
+            <a href="https://github.com/TencentCloudBase/cloudbase-framework" title="CloudBase Framework: 云开发前后端一体化部署工具">
+              <img style="max-width: 420px; width: 100%;" src="https://main.qcloudimg.com/raw/615038b16047fa677646011fae909102.png">
+            </a>
+          </p>
+          <div>本站源码使用 MIT 许可证发布在 <a href="https://github.com/hu-qi/trending-in-one-tcb" target="_blank"  rel="nofollow">GitHub</a> 上。内容来源自网络。</div>
+            
+        </footer>
+</div>
+<%- await include(`${Deno.cwd()}/views/common/footer.ejs`) %>
