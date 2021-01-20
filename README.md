@@ -1,6 +1,8 @@
 <a href="https://github.com/TencentCloudBase/cloudbase-templates"><img src="https://main.qcloudimg.com/raw/408157ecaba08c2594dc953b4c690aec.jpg"></a>
 
-# Deno 应用示例
+![](https://gitee.com/hu-qi/cdn/raw/master/2021-1-20/1611125245621-image.png)
+
+# 一条热搜
 
 这个目录是基于云开发的一个 [Deno](https://deno.land/) 应用示例，可以基于 **[CloudBase Framework](https://github.com/TencentCloudBase/cloudbase-framework)** 框架将项目一键部署到云开发环境
 
