@@ -1,6 +1,6 @@
 {
   "version": "2.0",
-  "envId": "deno-bot-5gvcin9606db0bc5",
+  "envId": "deno-demo-3ghgaf7pa8d97b90",
   "$schema": "https://framework-1258016615.tcloudbaseapp.com/schema/latest.json",
   "framework": {
     "name": "deno-app",
@@ -12,5 +12,8 @@
         }
       }
     }
-  }
+  },
+  "functionRoot": "./functions",
+  "functions": [],
+  "region": "ap-shanghai"
 }
